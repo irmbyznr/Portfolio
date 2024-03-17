@@ -1,0 +1,44 @@
+[
+    {
+        "image":"img/sass.png"
+    },
+    {
+        "image":"img/html.png"
+    },
+    {
+        "image":"img/css.png"
+    },
+    {
+        "image":"img/react.png"
+    },
+    {
+        "image":"img/js.png"
+    },
+    {
+        "image":"img/git.png"
+    },
+    {
+        "image":"img/github.png"
+    },
+    {
+        "image":"img/seo.png"
+    },
+    {
+        "image":"img/typescript.png"
+    },
+    {
+        "image":"img/tailwind.png"
+    },
+    {
+        "image":"img/nextjs.png"
+    }
+    ,
+    {
+        "image":"img/graphql.png"
+    },
+    {
+        "image":"img/jira.png"
+    }
+    
+    
+]

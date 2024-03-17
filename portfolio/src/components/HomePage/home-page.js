@@ -1,11 +1,16 @@
 import React from "react";
+import { Header } from "./header";
 import "./home-page.scss";
 
 export const HomePage = () => {
   var ReactRotatingText = require("react-rotating-text");
   return (
-    <section className="main-section">
+    <>
+      <Header/>
+    <main className="main-section">
+   
       <div className="overlay"></div>
+      <div className="home-content">
       <span>HI! I AM</span>
       <h1>Irem Beyzanur Ofluoglu</h1>
       <h2>
@@ -14,6 +19,9 @@ export const HomePage = () => {
           <ReactRotatingText items={["Frontend Developer"]} />
         </span>
       </h2>
-    </section>
+      </div>
+    </main>
+    </>
+  
   );
 };

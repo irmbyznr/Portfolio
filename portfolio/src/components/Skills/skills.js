@@ -1,20 +1,44 @@
 import React from 'react'
-import {ProgressBar} from "react-bootstrap"
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import "./skills.scss"
+import { Container, Image } from 'react-bootstrap';
+import skills from "./skills.json"
+import Spacer from '../Common/spacer';
 
 export const Skills = () => {
   return (
-   <div className='w-50 skill-progress'>
-   <h5>HTML</h5>
-   <ProgressBar variant='warning' animated now={80} />
-   <h5>CSS</h5>
-   <ProgressBar variant='info' animated now={80} />
-   <h5>JavaScript</h5>
-   <ProgressBar variant='success' animated now={50} />
-   <h5>React</h5>
-   <ProgressBar variant='danger' animated now={70} />
+    <Container className='skills-section'>
+      <Swiper
+       modules={[Navigation, A11y]}
+      spaceBetween={20}
+      navigation
+      mousewheel={true}
+      scrollbar={{ draggable: true }}
+      loop={true}
+      breakpoints={{
+        640: {
+          slidesPerView: 3,
+        },
+        1024: {
+          slidesPerView: 6,
+        },
+      }}
+    >
+      {skills.map((skill, index) => (
+          <SwiperSlide key={index}>
+            <Image src={skill.image} />
+          </SwiperSlide>
+        ))}
+     
 
 
-   </div>
+
+    
+    </Swiper>
+    </Container>
   )
 }

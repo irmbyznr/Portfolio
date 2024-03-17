@@ -1,0 +1,45 @@
+.banner-section{
+    background-image: url("../../../public/img/star.svg");
+    background-size: cover;
+    background-position: 10px 130px;
+    background-color: #ECF1FF;
+   .container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    h2{
+        font-size: 40px;
+        font-weight: 900;
+        padding-top: 40px;
+        line-height: 1.5;
+        span{
+            color: #27E224;
+        }
+    }
+    p{
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: black;
+        font-weight: 600;
+        background-color: #27E224;
+        padding: 15px 35px 15px 35px;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+        margin-bottom: 40px;
+}
+
+   }
+ 
+
+   
+    
+}

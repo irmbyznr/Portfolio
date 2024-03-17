@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  > span {
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: 800;
+  }
+  h1 {
+    font-weight: 800;
+    font-size: 60px;
+  }
+  h2 {
+font-weight: 800;
+    span {
+      padding-left: 5px;
+      text-decoration: underline;
+      .react-rotating-text-cursor{
+        font-weight: 300;
+      }
+    }
+  }
+}

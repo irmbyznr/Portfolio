@@ -1,0 +1,16 @@
+.skill-progress{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    
+    
+    h5{
+        padding-top: 10px;
+        font-size: 1.1rem;
+    }
+
+    .progress{
+        background: none;
+}
+}

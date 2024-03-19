@@ -1,13 +1,16 @@
 import React from "react";
 import { Container, Col, Row, Image, Figure, Button } from "react-bootstrap";
+import PageHeader from "../Common/page-header";
 import "./about-me.scss";
 
 export const AboutMe = () => {
   return (
-    <Container>
+
+      <Container>
+      <PageHeader title="About Me"/>
       <section className="about-section">
         <Row>
-          <Col xs={6}>
+          <Col md={6}>
             <Figure>
               <Figure.Image
                 width={500}
@@ -17,7 +20,7 @@ export const AboutMe = () => {
               />
             </Figure>
           </Col>
-          <Col xs={6} className="about-content">
+          <Col md={6} className="about-content">
             <p>
               Skilled Frontend Developer dedicated to crafting engaging web
               experiences. Proficient in HTML, CSS, JavaScript, React and
@@ -35,5 +38,6 @@ export const AboutMe = () => {
         </Row>
       </section>
     </Container>
+
   );
 };

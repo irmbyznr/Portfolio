@@ -1,6 +1,7 @@
 import { motion, useScroll } from "framer-motion";
 import { useEffect, useState } from "react";
 import { IoArrowUp } from "react-icons/io5";
+import "./scroll-to-top.scss"
 
 export const ScrollToTop = () => {
   const { scrollYProgress } = useScroll();
@@ -31,22 +32,11 @@ export const ScrollToTop = () => {
   return (
     <motion.div
       onClick={handleScrollTop}
+      className="scroll-to-top"
       style={{
         pathLength: scrollYProgress,
-        position: "fixed",
-        bottom: isScrollFixed ? "40px" : "-100px",
-        right: "40px",
-        transition: "bottom 0.3s ease-in-out",
-        border: '1px solid #3B3BFF',
-        padding: '20px',
-        borderRadius: '40px',
-        color: '#27E224',
-        backgroundColor: 'transparent',
-        cursor: 'pointer',
-        overflow: 'hidden',
-        zIndex: '50',
-        display:"flex"
-        
+        bottom: isScrollFixed ? "30px" : "-100px",
+       
       }}
 
     >

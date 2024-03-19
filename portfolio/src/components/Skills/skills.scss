@@ -8,8 +8,9 @@
         align-items: center;
     }
     img{
-        filter: saturate(0);
-        &:hover{
+        filter: saturate(0.1);
+        &:hover
+{
             filter: saturate(100%);
         }
         object-fit: contain;

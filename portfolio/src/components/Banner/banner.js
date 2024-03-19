@@ -4,7 +4,7 @@ import "./banner.scss";
 
 const Banner = () => {
   return (
-    <section className="banner-section">
+    <section className="banner-section" id="_contact">
     <Container>
     <h2>
         I'm <span>available</span> for freelancing

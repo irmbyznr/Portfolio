@@ -9,6 +9,7 @@
     gap: 20px;
     flex-direction: column;
     h2{
+        text-align: center;
         font-size: 40px;
         font-weight: 900;
         padding-top: 40px;
@@ -35,6 +36,11 @@
         -ms-border-radius: 30px;
         -o-border-radius: 30px;
         margin-bottom: 40px;
+        &:hover{
+            background-color: #3B3BFF;
+            color: white;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
 }
 
    }

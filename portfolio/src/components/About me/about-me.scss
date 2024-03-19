@@ -1,4 +1,14 @@
 .about-section{
+    figure{
+        display: flex;
+        justify-content: center;
+        img{
+            @media(max-width:768px) {
+                width:300px;
+                
+            }
+        }
+    }
     .about-content{
         display: flex;
         flex-direction: column;
@@ -6,6 +16,8 @@
         align-items: center;
         gap: 30px;
         a{
+            text-decoration: none;
+            letter-spacing: 2px;
             text-decoration: none;
             background-color: #3B3BFF;
             color: white;
@@ -15,6 +27,15 @@
             -moz-border-radius: 30px;
             -ms-border-radius: 30px;
             -o-border-radius: 30px;
+            &:hover{
+                background-color: #27E224;
+                color: black;
+                transition: background-color 0.3s ease, color 0.3s ease;
+                -webkit-transition: background-color 0.3s ease, color 0.3s ease;
+                -moz-transition: background-color 0.3s ease, color 0.3s ease;
+                -ms-transition: background-color 0.3s ease, color 0.3s ease;
+                -o-transition: background-color 0.3s ease, color 0.3s ease;
+}
 }
     }
 }

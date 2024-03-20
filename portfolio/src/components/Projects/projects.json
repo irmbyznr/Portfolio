@@ -9,25 +9,25 @@
         "url":"https://irmbyznr-levis.netlify.app/",
         "image":"img/levis.png",
         "title":"Levi's Clone",
-        "content":"This project is a single-page application developed using HTML, CSS, and Bootstrap. Through these projects, I enhanced my expertise in the responsive design domain."
+        "content":"This project is a web application developed using HTML, CSS, and Bootstrap. Through these projects, I enhanced my expertise in the responsive design domain."
     },
     {
         "url":"https://quiklearn-chi.vercel.app/",
         "image":"img/quiklearn.png",
         "title":"Quik Learn",
-        "content":"Some quick example text to build on the card title and make up the bulk of the card's content."
+        "content":"I created a project using React, leveraging its component-based structure and incorporating functionalities from various libraries. I utilized Tailwind CSS for styling."
     },
     {
         "url":"",
         "image":"img/portfolio.png",
         "title":"Portfolio",
-        "content":"Some quick example text to build on the card title and make up the bulk of the card's content."
+        "content":"This project is part of my portfolio website, where I showcase my skills and projects to introduce myself and my capabilities."
     },
     {
         "url":"",
         "image":"img/empty.png",
         "title":"Maker's Mind",
-        "content":"Some quick example text to build on the card title and make up the bulk of the card's content."
+        "content":"This freelance project, currently in the development stage, showcases my proactive approach in crafting innovative solutions. Leveraging Next.js, I've utilized cutting-edge technologies to build dynamic and responsive web applications."
     }
    
 ]

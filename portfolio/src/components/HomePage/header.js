@@ -6,7 +6,6 @@ import Navbar from "react-bootstrap/Navbar";
 
 export const Header = () => {
   const [isHeaderFixed, setIsHeaderFixed] = useState(false);
-  
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,23 +23,27 @@ export const Header = () => {
   }, []);
 
   return (
-    <Navbar expand="lg" className={`top-navbar ${
-      isHeaderFixed ? "position-fixed top-0 start-0 z-3 w-100 bg-white" : " position-fixed top-0 start-0 z-3 w-100 "
-    }`}>
+    <Navbar
+      expand="lg"
+      className={`top-navbar ${
+        isHeaderFixed
+          ? "position-fixed top-0 start-0 z-3 w-100 bg-white"
+          : " position-fixed top-0 start-0 z-3 w-100 "
+      }`}
+    >
       <Container>
         <Navbar.Brand href="#home" className="navbar-brand">
-          <span>i</span>
-          rmbyznr
+          <span>i</span>rmbyznr
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-        <Nav >
-            <Nav.Link href="#_home" >Home</Nav.Link>
-            <Nav.Link href="#_about" >About</Nav.Link>
+          <Nav>
+            <Nav.Link href="#_home">Home</Nav.Link>
+            <Nav.Link href="#_about">About</Nav.Link>
             <Nav.Link href="#_skills">Skills</Nav.Link>
             <Nav.Link href="#_projects">Projects</Nav.Link>
             <Nav.Link href="#_contact">Contact</Nav.Link>
-          </Nav>   
+          </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>

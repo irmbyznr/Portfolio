@@ -5,7 +5,7 @@ import "./home-page.scss";
 export const HomePage = () => {
   var ReactRotatingText = require("react-rotating-text");
   return (
-    <section id="_home">
+    <section id="home">
       <Header />
       <main className="main-section">
         <div className="overlay"></div>

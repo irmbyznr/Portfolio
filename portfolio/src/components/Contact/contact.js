@@ -32,33 +32,37 @@ export const Contact = () => {
 
       <div className="contact-content">
         <motion.div whileHover={{ rotate: 360, scale: 1.2 }}>
-          <a href="mailto:irmbyznr@gmailcom">
+          <a
+            href="mailto:irmbyznr@gmailcom"
+            title="Send an Email to Irem Beyzanur Ofluoglu"
+          >
             <IoIosMail />
           </a>
         </motion.div>
-        <motion.div whileHover={{ rotate: 360, scale: 1.2  }}>
-          <a href="tel:05347108721">
-            <IoIosCall />
-          </a>
-        </motion.div>
-        <motion.div whileHover={{ rotate: 360, scale: 1.2  }}>
+        <motion.div whileHover={{ rotate: 360, scale: 1.2 }}>
           <a
             href="https://www.linkedin.com/in/irem-beyzanur-ofluoglu/"
             target="_blank"
+            title="Irem Beyzanur Ofluoglu's LinkedIn Profile"
           >
             <SiLinkedin />
           </a>
         </motion.div>
-        <motion.div whileHover={{ rotate: 360, scale: 1.2  }}>
-          <a href="https://github.com/irmbyznr" target="_blank">
+        <motion.div whileHover={{ rotate: 360, scale: 1.2 }}>
+          <a
+            href="https://github.com/irmbyznr"
+            target="_blank"
+            title="Irem Beyzanur Ofluoglu's GitHub Profile"
+          >
             <SiGithub />
           </a>
         </motion.div>
 
-        <motion.div whileHover={{ rotate: 360, scale: 1.2  }}>
+        <motion.div whileHover={{ rotate: 360, scale: 1.2 }}>
           <a
             href="https://www.instagram.com/teklikoltukbireyi/"
             target="_blank"
+            title="Irem Beyzanur Ofluoglu's Instagram Profile"
           >
             <SiInstagram />
           </a>

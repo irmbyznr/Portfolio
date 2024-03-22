@@ -5,7 +5,7 @@ import Spacer from '../components/Common/spacer'
 const AboutPage = () => {
   return (
     <>
-    <Spacer   id="_about" height="150"/>
+    <Spacer   id="about" height="150"/>
     <AboutMe/>
     </>
   )

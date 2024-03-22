@@ -17,8 +17,8 @@ export const Projects = () => {
         {projects.map((project, index) => (
           <Col key={index} md={4} className="projects-fadein">
             <Card  >
-              <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <Card.Img variant="top" src={project.image}/>
+              <a href={project.url} target="_blank" rel="noopener noreferrer" title="View Project">
+                <Card.Img variant="top" src={project.image} alt="Irem Beyzanur Ofluoglu's Project Photos"/>
                 <Card.Title  className="overlay d-none">
                   <span>{project.title}</span>
                 </Card.Title>

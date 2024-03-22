@@ -1,43 +1,68 @@
 [
     {
-        "image":"img/sass.png"
+        "image":"img/sass.png",
+        "alt":"Irem Beyzanur Ofluoglu's SASS skill picture"
+
     },
     {
-        "image":"img/html.png"
+        "image":"img/html.png",
+        "alt":"Irem Beyzanur Ofluoglu's HTML skill picture"
+
     },
     {
-        "image":"img/css.png"
+        "image":"img/css.png",
+        "alt":"Irem Beyzanur Ofluoglu's CSS skill picture"
+
     },
     {
-        "image":"img/react.png"
+        "image":"img/react.png",
+        "alt":"Irem Beyzanur Ofluoglu's React skill picture"
+
     },
     {
-        "image":"img/js.png"
+        "image":"img/js.png",
+        "alt":"Irem Beyzanur Ofluoglu's JavaScript skill picture"
+
     },
     {
-        "image":"img/git.png"
+        "image":"img/git.png",
+        "alt":"Irem Beyzanur Ofluoglu's Git skill picture"
+
     },
     {
-        "image":"img/github.png"
+        "image":"img/github.png",
+        "alt":"Irem Beyzanur Ofluoglu's GitHub skill picture"
+
     },
     {
-        "image":"img/seo.png"
+        "image":"img/seo.png",
+        "alt":"Irem Beyzanur Ofluoglu's SEO skill picture"
+
     },
     {
-        "image":"img/typescript.png"
+        "image":"img/typescript.png",
+        "alt":"Irem Beyzanur Ofluoglu's TypeScript skill picture"
+
     },
     {
-        "image":"img/tailwind.png"
+        "image":"img/tailwind.png",
+        "alt":"Irem Beyzanur Ofluoglu's Tailwing skill picture"
+
     },
     {
-        "image":"img/nextjs.png"
+        "image":"img/nextjs.png",
+        "alt":"Irem Beyzanur Ofluoglu's Next.js skill picture"
+
     }
     ,
     {
-        "image":"img/graphql.png"
+        "image":"img/graphql.png",
+        "alt":"Irem Beyzanur Ofluoglu's Graphql skill picture"
+
     },
     {
-        "image":"img/jira.png"
+        "image":"img/jira.png",
+        "alt":"Irem Beyzanur Ofluoglu's Jira skill picture"
     }
     
     

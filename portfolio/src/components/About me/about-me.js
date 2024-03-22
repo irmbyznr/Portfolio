@@ -14,8 +14,7 @@ export const AboutMe = () => {
             <Figure>
               <Figure.Image
                 width={500}
-                height={180}
-                alt="171x180"
+                alt="About Section's Picture"
                 src="img/Profile.png"
               />
             </Figure>
@@ -31,7 +30,7 @@ export const AboutMe = () => {
               committed to staying updated on industry trends to ensure optimal
               performance.
             </p>
-            <a href="Resume.pdf" download="irem_beyzanur_ofluoglu_resume.pdf">
+            <a href="Resume.pdf" download="irem_beyzanur_ofluoglu_resume.pdf"  title="Irem Beyzanur Ofluoglu's Resume">
               Download Resume
             </a>
           </Col>

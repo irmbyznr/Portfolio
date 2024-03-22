@@ -5,7 +5,7 @@ import { Skills } from '../components/Skills/skills'
 const SkillsPage = () => {
   return (
     <>
-     <Spacer height="150" id="_skills"/>
+     <Spacer height="150" id="skills"/>
       <Skills />
     </>
   )

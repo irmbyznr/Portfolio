@@ -5,7 +5,7 @@ import { Projects } from '../components/Projects/projects'
 const ProjectsPage = () => {
   return (
     <>
-    <Spacer height="150"  id="_projects" />
+    <Spacer height="150"  id="projects" />
       <Projects />
     </>
   )

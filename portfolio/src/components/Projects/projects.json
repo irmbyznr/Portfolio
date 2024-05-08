@@ -28,6 +28,12 @@
         "image":"img/empty.png",
         "title":"Maker's Mind",
         "content":"This freelance project, currently in the development stage, showcases my proactive approach in crafting innovative solutions. Leveraging Next.js, I've utilized cutting-edge technologies to build dynamic and responsive web applications."
+    },
+    {
+        "url":"https://product-listing-rosy-alpha.vercel.app/",
+        "image":"img/productlisting.png",
+        "title":"Dynamic Product Listing",
+        "content":"This project, developed using Next.js, utilizes a centralized state management approach powered by Redux Toolkit for sorting and filtering functionalities. Leveraging the capabilities of Next.js and Redux Toolkit, it ensures efficient performance and an enhanced user experience."
     }
    
 ]
